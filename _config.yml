@@ -1,0 +1,45 @@
+# Site settings
+title: Chris Hailey
+email: chris.hailey8@gmail.com
+description: Welcome to my world.
+baseurl: "" # the subpath of your site, e.g. /newpath-for-emping
+url: "http://www.chailey.github.io" # the base hostname & protocol for your site
+github_username:  chailey
+GoogleAnalytics: UA-xxxxxx-x
+
+twitter:
+  #username:
+facebook:
+  app_id: 1234567
+  publisher: 1234567
+
+sass:
+    style: compressed
+
+# Build settings
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jemoji
+
+defaults:
+    - {scope: {type: posts}, values: {layout: post, permalink: '/blog/:title'}}
+
+include:
+  - _pages
+
+exclude:
+  - CNAME
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+paginate: 12
+paginate_path: '/blog/:num'
