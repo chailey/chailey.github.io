@@ -3,9 +3,8 @@ layout: default
 avatar: true
 permalink: /
 ---
-## 🚀 Hello, (out of this) World! 
+## Who is Chris Hailey? 
 
-I am an undergrad at the University of Southern California studying Computer Engineering and Computer Science.
-Here you can view some of my side projects as well as weekly posts on technology and life.
+I am an undergraduate at USC studying Computer Science. 
 
 ---
